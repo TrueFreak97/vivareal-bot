@@ -2,13 +2,15 @@
   "name": "vivareal-bot",
   "version": "1.0.0",
   "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm rebuild"
+  },
   "dependencies": {
-    "axios": "^1.14.0",
-    "cheerio": "^1.0.0",
     "discord-webhook-node": "^1.1.8",
-    "dotenv": "^17.3.1",
-    "got": "^14.6.6",
-    "node-cron": "^4.2.1",
+    "dotenv": "^16.4.5",
+    "got": "^13.0.0",
+    "node-cron": "^3.0.3",
     "sqlite": "^5.1.1",
     "sqlite3": "^6.0.1"
   }
